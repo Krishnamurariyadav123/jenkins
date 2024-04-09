@@ -14,5 +14,20 @@ pipeline {
                 echo 'build'
             }
         }
+        stage('Test') {
+            steps {
+                echo 'test completed'
+            }
+        }
+        stage('quality check') {
+            steps {
+                echo 'quality check completed'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploy completed'
+            }
+        }
     }
 }
