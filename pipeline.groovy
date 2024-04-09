@@ -8,18 +8,18 @@ pipeline {
             }
         }
         stage {
-            steps ('build') {
-                echo " Build sucessfully"
+            steps('build') {
+                echo 'Build sucessfully'
                 }
         }
         stage {
-            steps ('test') {
-                echo " test completed"
+            steps('test') {
+                echo  'test completed'
             }
         }
         stage {
-            step ('deploy') {
-                echo "deploy completed"
+            step('deploy') {
+                echo 'deploy completed'
             }
         }
     }
