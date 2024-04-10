@@ -20,6 +20,7 @@ pipeline {
                     -Dsonar.projectKey=studentapp-ui \\
                     -Dsonar.host.url=http://13.232.246.90:9000 \\
                     -Dsonar.login=423db6f4779159f42efebdb2b699bbe433f50831'''
+                    echo 'test completed'
             }
         }
         stage('quality check') {
